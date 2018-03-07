@@ -1,0 +1,30 @@
+.color-main{
+  color:#494949;
+}
+.accent{
+  color:#ce8833;
+}
+.success{
+  color:#fce146;
+}
+.warning{
+  color:#ed1e1e;
+}
+.danger{
+  color:#ffae00;
+}
+.info{
+  color:#f2ff00;
+}
+.color-bg{
+  background-color:#617899;
+}
+.color-bg-2{
+  background-color:#afbac6;
+}
+.size1{
+  width:70%;
+  height:60px;
+  margin-left:15%;
+  margin-right:15%;
+}
