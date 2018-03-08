@@ -1,0 +1,35 @@
+/*
+FLEXBOX
+*/
+
+
+.flex-container{
+  display:flex;
+  justify-content:center;
+  background-color:#617899;
+  border:solid 3px orange;
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+}
+.flex-container2{
+  display:flex;
+  flex-direction:column;
+  background-color:#617899;
+  border:solid 3px orange;
+  width:15%;
+  margin-left:0%;
+  margin-right:85%;
+}
+.flex-box{
+  background-color:#f1f1f1;
+  width:100px;
+  margin:10px;
+  text-align:center;
+  line-height:75px;
+  font-size:30px;
+  border:double 3px orange;
+}
+.maring-top{
+  margin-top:10px;
+}
