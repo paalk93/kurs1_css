@@ -1,9 +1,16 @@
 /*
 FLEXBOX
 */
-
-
 .flex-container{
+  display:flex;
+}
+.flex-container-top{
+  display:flex;
+  justify-content:center;
+  background-color:#617899;
+  border:solid 3px orange;
+}
+.flex-container-row{
   display:flex;
   justify-content:center;
   background-color:#617899;
@@ -12,7 +19,7 @@ FLEXBOX
   margin-left:20%;
   margin-right:20%;
 }
-.flex-container2{
+.flex-container-column{
   display:flex;
   flex-direction:column;
   background-color:#617899;
@@ -20,6 +27,12 @@ FLEXBOX
   width:15%;
   margin-left:0%;
   margin-right:85%;
+}
+.flex-container-bottom{
+  display:flex;
+  justify-content:center;
+  background-color:#617899;
+  border:solid 3px orange;
 }
 .flex-box{
   background-color:#f1f1f1;
@@ -30,6 +43,30 @@ FLEXBOX
   font-size:30px;
   border:double 3px orange;
 }
-.maring-top{
-  margin-top:10px;
+/*Class to fix margin*/
+.margin-top{
+  margin-top:20px;
+}
+/*Class to fix logo fontsize*/
+.font-size{
+  font-size:100px;
+}
+
+
+
+/*CSS NUMBER TWO*/
+
+.container{
+  display:flex;
+}
+.row{
+  display:flex;
+  background-color:#617899;
+  border:solid 3px orange;
+}
+.column{
+  display:flex;
+  flex-direction:column;
+  background-color:#617899;
+  border:solid 3px orange;
 }
