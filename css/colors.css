@@ -1,6 +1,9 @@
 .color-main{
   color:#494949;
 }
+.color-secondary{
+  color:#ffffff;
+}
 .accent{
   color:#ce8833;
 }
@@ -21,4 +24,10 @@
 }
 .color-bg-2{
   background-color:#e1e1e1;
+}
+.border{
+  border:orange 3px double;
+}
+.border-2{
+  border:#4e6487 3px double;
 }
