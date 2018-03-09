@@ -12,28 +12,29 @@ FLEXBOX
   display:flex;
   flex-direction:column;
 }
-/*Class to fix margin*/
+/*Class to fix margin and padding*/
 .margin-2{
   margin:2%;
 }
 .padding-2{
   padding:2%;
 }
-/*Class to fix logo fontsize*/
+/*Font size*/
 .font-size-50{
-  font-size:50px;
+  font-size:100px;
 }
-.content-center{
+.font-size-20{
+  font-size:20px;
+}
+/*Positioning*/
+.justify-content-center{
   justify-content:center;
 }
-.content-left{
+.justify-content-left{
   justify-content:left;
 }
-.content-right{
+.justify-content-right{
   justify-content:right;
-}
-.font-size2{
-  font-size:50px;
 }
 .float-left{
   float:left;
@@ -43,4 +44,25 @@ FLEXBOX
 }
 .float-right{
   float:right;
+}
+.margin-center{
+  margin-left:auto;
+  margin-right:5%;
+}
+.margin-left{
+  margin-left:auto;
+}
+.margin-right{
+  margin-right:2%;
+}
+.text-align-bottom{
+  text-align:center;
+}
+.background-image{
+  background-image:url(../img/winter.jpeg)
+}
+
+
+.align-text-center{
+  text-align:center;
 }
